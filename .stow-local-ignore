@@ -1,0 +1,5 @@
+#Items listed here get ignored by Stow
+
+.git
+.scripts
+README.*
