@@ -9,12 +9,19 @@ fi
 
 # Zinit Source after Downloading the first time
 source "${ZINIT_HOME}/zinit.zsh"
+#FIXME! source ~/.local/share/zinit/plugins/Aloxaf---fzf-tab/fzf-tab.zsh
 
 # Zinit Add Plugins
 zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
-#zinit light zsh-users/zsh-completions #(already set in nix)
-#autoload -U compinit && compinit #(already set in nix)
+zinit light zsh-users/zsh-completions
+zinit light Aloxaf/fzf-tab
+#FIXME! autoload -U compinit && compinit #(make this mannual in nix)
+
+# Completion Styling 
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'  #small letter matching
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}" #color for completion
+#FIXME! zstyle ':completion:*' menu no
 
 # Keybindings
 #bindkey -e              	 #set emacs keybindings(already similar set in nix)
@@ -22,10 +29,10 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
 # History Setup
+HISTDUP=erase
 #HISTSIZE=5000                           #(already set in nix)
 #HISTFILE=~/.zsh_history                 #(already set in nix)
-HISTDUP=erase
-#setopt share_history 
+#setopt share_history 			 #(already set in nix)
 setopt appendhistory
 setopt hist_ignore_space
 setopt hist_ignore_all_dups 
@@ -34,11 +41,16 @@ setopt hist_save_no_dups
 setopt hist_find_no_dups
 
 # Aliases
+alias ls='ls --color'
 alias nix-conf="sudo nvim /etc/nixos/configuration.nix"
 alias hypr-conf="sudo nvim ~/.config/hypr/hyprland.conf"
 alias ff="fastfetch"
 alias nix-gens="sudo nixos-rebuild list-generations"
 alias nix-pkgs="nix-store -q --requisites /run/current-system | cut -d'-' -f2- | sort | uniq | fzf" 
+alias c='clear'
+
+# Shell Integrations
+eval "$(fzf --zsh)"
 
 # Yazi
 function y() {
