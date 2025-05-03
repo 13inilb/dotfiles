@@ -42,6 +42,7 @@ setopt hist_find_no_dups
 
 # Aliases
 alias ls='ls --color'
+alias dots='cd ~/.dotfiles'
 alias nix-conf="sudo nvim /etc/nixos/configuration.nix"
 alias hypr-conf="sudo nvim ~/.config/hypr/hyprland.conf"
 alias ff="fastfetch"
