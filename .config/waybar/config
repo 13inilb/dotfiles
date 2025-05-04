@@ -1,4 +1,6 @@
 {
+	"style": "~/.config/hyprbar/style.css",
+	"margin-top": 5,
 	"layer": "top",
 	"position": "top",
 	"reload_style_on_change": true,
@@ -15,11 +17,11 @@
                 "empty": ""
             },
             "persistent-workspaces": {
-                "*": [ 1,2,3,4,5 ]
+                "*": [ 1,2,3 ]
             }
         },
 	"clock": {
-            "format": "{:%I:%M:%S %p} ",
+            "format": " {:%I:%M:%S %p} ",
             "interval": 1,   
             "tooltip-format": "<tt>{calendar}</tt>",
             "calendar": {
@@ -34,18 +36,19 @@
         },
 	"network": {
             "format-wifi": "",
-            "format-ethernet":"",
-            "format-disconnected": "",
+            "format-ethernet":" ",
+            "format-disconnected": " ",
             "tooltip-format-disconnected": "Error",
             "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
             "tooltip-format-ethernet": "{ifname} 🖧 ",
             "on-click": "kitty nmtui"
         },
 	"cpu": {
-            "format": "󰻠",
+            "format": " {usage}%",
             "tooltip": true
         },
         "memory": {
-            "format": ""
+            "format": "  {percentage}%",
+	    "tooltip": true
         },
 }
