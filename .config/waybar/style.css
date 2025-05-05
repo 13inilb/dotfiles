@@ -7,6 +7,7 @@ window#waybar {
 
 /* Style for modules */
 #clock,
+#pulseaudio,
 #cpu,
 #memory,
 #network,
@@ -32,9 +33,10 @@ window#waybar {
 
 /* Specific colors per module (optional) */
 #clock { color: #8be9fd; }
+#network { color: #8be9fd; }
 #cpu { color: #ff5555; } 
 #memory { color: #bd93f9; }
-#network { color: #8be9fd; }
+#pulseaudio { color: #F5B04B; }
 
 /* Workspaces styling */
 #workspaces button {
