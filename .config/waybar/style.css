@@ -48,7 +48,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: #61afef;
+  color: #CF4E6D;
 }
 
 /* Occupied workspace (not focused but has windows) */
