@@ -8,3 +8,11 @@ edit = [
 	{ run = 'code %*', orphan = true, desc = "code", for = "windows" },
 	{ run = 'code -w %*', block = true, desc ="code (block)",for = "windows" },
 ]
+pdf = [
+	{ run = 'evince "$@"&', desc ="Evince", block = true, for = "unix"},
+]
+
+[open]
+prepend_rules = [
+	{ name = "*.pdf", use = "pdf" },
+]
