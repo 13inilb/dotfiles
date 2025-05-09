@@ -1,3 +1,5 @@
+# OhMyPosh
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/config.json)"
 # Zinit Location Variable Setting
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
 
