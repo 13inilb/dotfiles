@@ -32,9 +32,9 @@ bindkey '^n' history-search-forward
 
 # History Setup
 HISTDUP=erase
-#HISTSIZE=5000                           #(already set in nix)
+#HISTSIZE=2000                           #(already set in nix)
 #HISTFILE=~/.zsh_history                 #(already set in nix)
-#setopt share_history 			 #(already set in nix)
+#setopt share_history 			        #(already set in nix)
 setopt appendhistory
 setopt hist_ignore_space
 setopt hist_ignore_all_dups 
