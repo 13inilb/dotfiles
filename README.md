@@ -1,4 +1,4 @@
-# 13inilb/dotfiles
+# dotfiles
 
 This repository contains my personal dotfiles, designed to set up a consistent efficient and aesthetic environment across my systems.(my pov u know😅)
 
