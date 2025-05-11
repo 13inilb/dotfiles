@@ -16,7 +16,7 @@
           "foreground_templates": [
             "{{ if gt .Code 0 }}p:red{{else}}p:yellow{{ end }}"  
           ] 
-       },
+        },
         {
           "type": "path",
           "style": "plain",
@@ -44,14 +44,6 @@
           },
           "background": "transparent",
           "foreground": "p:lightgreen"
-        },
-        {
-          "type": "root",
-          "style": "powerline",
-          "powerline_symbol": "\ue0b0",
-          "template": " \uf0e7 ",
-          "background": "p:yellow",
-          "foreground": "p:white"
         }
       ]
     },
@@ -59,38 +51,16 @@
       "type": "rprompt",
       "segments": [
         {
-          "type": "node",
-          "style": "plain",
-          "template": "\ue718 ",
-          "properties": {
-            "display_mode": "files",
-            "fetch_package_manager": false,
-            "home_enabled": false
-          },
-          "background": "transparent",
-          "foreground": "p:green"
-        },
-        {
-          "type": "go",
-          "style": "plain",
-          "template": "\ue626 ",
-          "properties": {
-            "fetch_version": false
-          },
-          "background": "transparent",
-          "foreground": "p:blue"
-        },
-        {
           "type": "python",
           "style": "plain",
-          "template": "\ue235 ",
+          "template": "(venv) ",
           "properties": {
-            "display_mode": "files",
+            "display_mode": "environment",
             "fetch_version": false,
             "fetch_virtual_env": false
           },
           "background": "transparent",
-          "foreground": "p:yellow"
+          "foreground": "p:violet"
         },
         {
           "type": "shell",
@@ -98,7 +68,14 @@
           "template": " {{ if not (eq .Shell \"zsh\") }}{{ .Name }}{{ end }} ",
           "background": "transparent",
           "foreground": "p:violet"
-       },
+        },
+        {
+          "type": "nix-shell",
+          "style": "powerline",
+          "foreground": "p:violet",
+          "background": "transparent",
+          "template": "{{if ne .Type \"unknown\"}} (nix-{{.Type}}) {{end}}"
+        },
         {
           "type": "executiontime",
           "style": "plain",
@@ -140,7 +117,7 @@
     ]
    },
   "secondary_prompt": {
-    "template": "<p:yellow,transparent>\ue0b6</><,p:yellow> > </><p:yellow,transparent>\ue0b0</> ",
+    "template": " ",
     "background": "transparent",
     "foreground": "p:black"
   },
