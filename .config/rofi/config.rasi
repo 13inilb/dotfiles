@@ -2,29 +2,29 @@
 /* Author: Newman Sanchez (https://github.com/newmanls) */
 
 * {
+    bg0:    #212121F2;
+    bg1:    #2A2A2A;
+    bg2:    #3D3D3D80;
+    mc1:    #8D333CF2;
+    fg0:    #F5B04B;
+    fg1:    #FFFFFF;
+    fg2:    #969696;
+    fg3:    #3D3D3D;
+
     font:   "FiraCode 12";
 
     background-color:   transparent;
-    text-color:         @fg0;
+    text-color:         @fg1;
 
     margin:     0px;
     padding:    0px;
     spacing:    0px;
-
-    bg0:    #212121F2;
-    bg1:    #2A2A2A;
-    bg2:    #3D3D3D80;
-    bg3:    #F57C00F2;
-    fg0:    #E6E6E6;
-    fg1:    #FFFFFF;
-    fg2:    #969696;
-    fg3:    #3D3D3D;
 }
 
 window {
     location:       north;
     y-offset:       calc(50% - 176px);
-    width:          480;
+    width:          800;
     border-radius:  24px;
 
     background-color:   @bg0;
@@ -36,7 +36,7 @@ mainbox {
 
 inputbar {
     background-color:   @bg1;
-    border-color:       @bg3;
+    border-color:       @mc1;
 
     border:         2px;
     border-radius:  16px;
@@ -51,8 +51,10 @@ prompt {
 }
 
 entry {
-    placeholder:        "Search";
+    placeholder:        " Search";
     placeholder-color:  @fg3;
+    text-color:         @fg0;    
+    cursor-color:       @fg0;
 }
 
 message {
@@ -83,15 +85,15 @@ element {
 }
 
 element normal active {
-    text-color: @bg3;
+    text-color: @mc1;
 }
 
 element alternate active {
-    text-color: @bg3;
+    text-color: @mc1;
 }
 
 element selected normal, element selected active {
-    background-color:   @bg3;
+    background-color:   @mc1;
 }
 
 element-icon {

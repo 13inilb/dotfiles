@@ -65,7 +65,7 @@
         {
           "type": "shell",
           "style": "plain",
-          "template": " {{ if not (eq .Shell \"zsh\") }}{{ .Name }}{{ end }} ",
+          "template": " {{ if ne .Shell \"zsh\" }}{{ .Name }}{{ end }} ",
           "background": "transparent",
           "foreground": "p:violet"
         },
@@ -74,7 +74,7 @@
           "style": "powerline",
           "foreground": "p:violet",
           "background": "transparent",
-          "template": "{{if ne .Type \"unknown\"}} (nix-{{.Type}}) {{end}}"
+          "template": "{{if ne .Type \"unknown\"}}   nix-{{.Type}} {{end}}"
         },
         {
           "type": "executiontime",
