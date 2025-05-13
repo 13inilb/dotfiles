@@ -1,6 +1,9 @@
 # dotfiles
 
-This repository contains my personal dotfiles, designed to set up a consistent efficient and aesthetic environment across my systems.(my pov u know😅)
+<p align="center">
+  <img src="images/Screenshot1.png">
+</p>
+This repository contains my personal dotfiles, designed to set up a consistent efficient and aesthetic environment across my systems.
 
 ## ⚙️ Installation
 
