@@ -41,7 +41,8 @@
         "tooltip-format-disconnected": "Disconnected",
         "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
         "tooltip-format-ethernet": "{ifname}",
-        "on-click": "kitty nmtui"
+        "on-click": "kitty nmtui",
+		"interval": 2
     },
     "tray": {
 		"icon-size" : 16,
