@@ -45,7 +45,7 @@ setopt hist_find_no_dups
 # Aliases
 alias ls='ls --color'
 alias dots='cd ~/.dotfiles'
-alias nix-conf="sudo nvim /etc/nixos/configuration.nix"
+alias nix-conf="sudoedit  /etc/nixos/configuration.nix"
 alias hypr-conf="nvim ~/.config/hypr/hyprland.conf"
 alias ff="fastfetch"
 alias nix-gens="sudo nixos-rebuild list-generations"
@@ -66,3 +66,5 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+# Defaults
+export EDITOR="/run/current-system/sw/bin/nvim"
