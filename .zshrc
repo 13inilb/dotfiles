@@ -51,7 +51,7 @@ alias ff="fastfetch"
 alias nix-gens="sudo nixos-rebuild list-generations"
 alias nix-pkgs="nix-store -q --requisites /run/current-system | cut -d'-' -f2- | sort | uniq | fzf" 
 alias c='clear'
-alias devshell="nix develop --command zsh -i"
+alias devshell="~/Projects/Flakes/devshell_choice.sh"
 
 # Shell Integrations
 eval "$(fzf --zsh)"
