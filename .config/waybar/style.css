@@ -55,6 +55,10 @@ window#waybar {
   color: #CF4E6D;
 }
 
+#workspaces button.special {
+  color: #F5B04B;
+}
+
 /* Occupied workspace (not focused but has windows) */
 #workspaces button.visible:not(.active) {
   color: #ffffff; /* pure white */

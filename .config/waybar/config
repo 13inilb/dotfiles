@@ -10,15 +10,17 @@
 
 
 	"hyprland/workspaces": {
+		"show-special": true,
 	    "format": "{icon}",
 	    "format-icons": {
-		"active": "",
-                "default": "",
-                "empty": ""
-            },
-            "persistent-workspaces": {
-                "*": [ 1,2,3 ]
-            }
+			"active": "",
+	        "default": "",
+	        "empty": "",
+			"special": ""
+        },
+        "persistent-workspaces": {
+            "*": [ 1,2,3 ]
+        }
     },
 	"clock": {
         "format": " {:%I:%M:%S %p} ",
@@ -26,8 +28,8 @@
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
         "format": {
-                "today": "<span color='#fAfBfC'><b>{}</b></span>"
-        }
+				  "today": "<span color='#8AE6F8'><b><u>{}</u></b></span>"
+				  }
         },
         "actions": {
 				"on-click-right": "shift_down",
