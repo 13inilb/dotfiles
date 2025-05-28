@@ -20,6 +20,12 @@
     padding:    0px;
     spacing:    0px;
 }
+configuration {
+    show-icons: true;
+    icon-theme: "Tela-circle-blue-dark";
+    
+
+}
 
 window {
     location:       north;
