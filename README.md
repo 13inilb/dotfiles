@@ -3,7 +3,7 @@
 <p align="center">
   <img src="images/Screenshot1.png">
 </p>
-This repository contains my personal dotfiles, designed to set up a consistent efficient and aesthetic environment across my systems.
+This repository contains my personal dotfiles, designed to set up a consistent efficient and aesthetic environment across my arch systems.
 
 ## ⚙️ Installation
 
@@ -11,7 +11,7 @@ These dotfiles are managed using [GNU Stow](https://www.gnu.org/software/stow/),
 
 ## ⚠️ Notes on Compatibility
 
-These dotfiles were created specifically for [NixOS](https://nixos.org/) + [Hyprland](https://hyprland.org/), and therefore may include configurations that are unnecessary or irrelevant for other distributions like Ubuntu or Linux Mint.  Please go through the **Repo** and understand what all configs are currently set. If you're unsure about certain configs, it's recommended to leave them as is or better remove the irrelevant  folders from the cloned repo before applying Stow. (ps: config folders usually are hidden by default in file managers)
+These dotfiles were created specifically for [Arch](https://archlinux.org) + [Hyprland](https://hyprland.org/), and therefore may include configurations that are unnecessary or irrelevant for other distributions like Ubuntu or Linux Mint.  Please go through the **Repo** and understand what all configs are currently set. If you're unsure about certain configs, it's recommended to leave them as is or better remove the irrelevant  folders from the cloned repo before applying Stow. (ps: config folders usually are hidden by default in file managers)
 
 ### Prerequisites
 
