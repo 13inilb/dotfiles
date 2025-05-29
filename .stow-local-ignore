@@ -5,3 +5,4 @@
 images
 README.*
 pkglist.txt
+auto-update-pkglist.hook
