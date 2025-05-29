@@ -65,6 +65,7 @@ xdg-utils
 xorg-server
 xorg-xinit
 yazi
+zed
 zoxide
 zram-generator
 zsh
