@@ -26,6 +26,7 @@ jq
 kitty
 less
 libpulse
+libreoffice-fresh
 libva-nvidia-driver
 linux
 linux-firmware

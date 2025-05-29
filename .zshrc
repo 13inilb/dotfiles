@@ -52,6 +52,7 @@ alias dots='cd ~/.dotfiles'
 alias hypr-conf="nvim ~/.config/hypr/hyprland.conf"
 alias ff="fastfetch"
 alias c='clear'
+alias devshell='~/Projects/Flakes/devshell_choice.sh'
 
 # Shell Integrations
 eval "$(fzf --zsh)"
