@@ -34,11 +34,12 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 
 # History Setup
+SAVEHIST=2000
 HISTDUP=erase
 HISTSIZE=2000                           #(already set in nix)
 HISTFILE=~/.zsh_history                 #(already set in nix)
 setopt share_history 			        #(already set in nix)
-setopt appendhistory
+setopt append_history
 setopt hist_ignore_space
 setopt hist_ignore_all_dups 
 setopt hist_ignore_dups                 #(already set in nix)
@@ -66,4 +67,4 @@ function y() {
 }
 
 # Defaults
-export EDITOR="/run/current-system/sw/bin/nvim"
+export EDITOR="nvim"

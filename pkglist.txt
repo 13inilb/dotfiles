@@ -37,6 +37,7 @@ nano
 neovim
 network-manager-applet
 networkmanager
+nix
 nvidia-dkms
 okular
 pipewire
