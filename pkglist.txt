@@ -24,6 +24,7 @@ intel-ucode
 iwd
 jq
 kitty
+krita
 less
 libpulse
 libreoffice-fresh
@@ -41,6 +42,8 @@ networkmanager
 nix
 nvidia-dkms
 okular
+paru
+paru-debug
 pipewire
 pipewire-alsa
 pipewire-jack
@@ -59,12 +62,14 @@ tela-circle-icon-theme-red
 ufw
 unzip
 vim
+visual-studio-code-bin
 waybar
 wget
 wireless_tools
 wireplumber
 wofi
 xdg-desktop-portal-hyprland
+xdg-user-dirs
 xdg-utils
 xorg-server
 xorg-xinit

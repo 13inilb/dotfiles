@@ -1,7 +1,5 @@
-# Add this path to the PATH
-export PATH="$PATH:$HOME/.local/bin"
-
 # OhMyPosh
+export PATH="$PATH:$HOME/.local/bin"
 eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/config.json)"
 # Zinit Location Variable Setting
 ZINIT_HOME="${HOME}/.local/share/zinit/zinit.git"
@@ -68,4 +66,7 @@ function y() {
 }
 
 # Defaults
-export EDITOR="nvim"
+export EDITOR='nvim'
+ 
+# Rustlings
+export PATH="$HOME/.cargo/bin:$PATH"

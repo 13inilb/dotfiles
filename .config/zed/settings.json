@@ -15,7 +15,6 @@
   "ui_font_size": 17,
   "buffer_font_size": 17,
   // "buffer_font_family": "FiraCode Nerd Font Propo",
-  "cursor_shape": "block",
   "theme": {
     "mode": "dark",
     "light": "Nightfox",
