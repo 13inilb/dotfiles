@@ -41,6 +41,7 @@ neovim
 network-manager-applet
 networkmanager
 nix
+noto-fonts-emoji
 nvidia-dkms
 okular
 paru
@@ -54,6 +55,7 @@ polkit-kde-agent
 qt5-wayland
 qt6-wayland
 rofi-calc
+rofi-emoji
 rofi-wayland
 sddm
 slurp
