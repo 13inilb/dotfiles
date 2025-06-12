@@ -15,6 +15,7 @@ git
 grim
 grub
 gst-plugin-pipewire
+helvum
 htop
 hyprland
 hyprpaper
@@ -44,6 +45,7 @@ nvidia-dkms
 okular
 paru
 paru-debug
+pavucontrol
 pipewire
 pipewire-alsa
 pipewire-jack
