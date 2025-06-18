@@ -1,4 +1,5 @@
 7zip
+aws-sdk-cpp-iam
 base
 base-devel
 cliphist
@@ -42,6 +43,7 @@ network-manager-applet
 networkmanager
 nix
 noto-fonts-emoji
+ntfs-3g
 nvidia-dkms
 okular
 paru
@@ -72,6 +74,7 @@ wget
 wireless_tools
 wireplumber
 wofi
+wtype
 xdg-desktop-portal-hyprland
 xdg-user-dirs
 xdg-utils
