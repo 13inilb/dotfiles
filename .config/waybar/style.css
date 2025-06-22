@@ -18,7 +18,8 @@ window#waybar {
   background-color: rgba(40, 42, 54, 0.85);  /* semi-transparent background */
   border-radius: 10px;
   font-size: 13px;
-  font-family: "FiraCode Nerd Font";
+  font-weight: 600;
+  font-family: "FiraCode Nerd Font Semibold", "FiraCode Nerd Font";
   transition: background-color 0.3s ease;
 }
 
@@ -33,10 +34,16 @@ window#waybar {
 */
 
 /* Specific colors per module (optional) */
-#clock { color: #F4FBF2; }
+#clock { 
+    color: #F4FBF2;
+    margin-left: 15px;
+}
 #network { color: #F4FBF2; }
 #cpu { color: #F4FBF2; } 
-#memory { color: #F4FBF2; }
+#memory { 
+    color: #F4FBF2; 
+    margin-right: 15px;
+}
 #pulseaudio { color: #F4FBF2; }
 #tray { color: #F4FBF2; }
 
