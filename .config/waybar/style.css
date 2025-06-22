@@ -33,12 +33,12 @@ window#waybar {
 */
 
 /* Specific colors per module (optional) */
-#clock { color: #8be9fd; }
-#network { color: #8be9fd; }
-#cpu { color: #ff5555; } 
-#memory { color: #bd93f9; }
-#pulseaudio { color: #F5B04B; }
-#tray { color: #bd93f9; }
+#clock { color: #F4FBF2; }
+#network { color: #F4FBF2; }
+#cpu { color: #F4FBF2; } 
+#memory { color: #F4FBF2; }
+#pulseaudio { color: #F4FBF2; }
+#tray { color: #F4FBF2; }
 
 /* Workspaces styling */
 #workspaces button {
@@ -52,7 +52,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: #CF4E6D;
+  color: #59ab07;
 }
 
 #workspaces button.special {

@@ -1,4 +1,5 @@
 7zip
+ardour
 aws-sdk-cpp-iam
 base
 base-devel
@@ -36,6 +37,7 @@ linux-firmware
 linux-headers
 linux-lts
 linux-lts-headers
+localsend-bin
 mako
 nano
 neovim
