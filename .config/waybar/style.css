@@ -35,17 +35,17 @@ window#waybar {
 
 /* Specific colors per module (optional) */
 #clock { 
-    color: #F4FBF2;
+    color: #B5C0E6;
     margin-left: 15px;
 }
-#network { color: #F4FBF2; }
-#cpu { color: #F4FBF2; } 
+#network { color: #B5C0E6 ; }
+#cpu { color: #B5C0E6; } 
 #memory { 
-    color: #F4FBF2; 
+    color: #B5C0E6; 
     margin-right: 15px;
 }
-#pulseaudio { color: #F4FBF2; }
-#tray { color: #F4FBF2; }
+#pulseaudio { color: #B5C0E6; }
+#tray { color: #B5C0E6; }
 
 /* Workspaces styling */
 #workspaces button {
@@ -59,11 +59,11 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: #59ab07;
+  color: #8FAFEF;
 }
 
 #workspaces button.special {
-  color: #F5B04B;
+  color: #8FAFEF;
 }
 
 /* Occupied workspace (not focused but has windows) */
