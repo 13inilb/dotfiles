@@ -13,6 +13,9 @@ fastfetch
 fd
 firefox
 fzf
+gdb
+ghidra
+ghostty
 git
 grim
 grub
@@ -56,6 +59,7 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 polkit-kde-agent
+qemu-desktop
 qt5-wayland
 qt6-wayland
 rofi-calc
